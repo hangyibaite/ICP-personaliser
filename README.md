@@ -12,9 +12,11 @@ Runs a structured interview to extract a complete ICP from anyone — even if th
 ICP-personaliser/
 ├── SKILL.md                  # Main skill — core rules and flow
 ├── README.md                 # This file
-├── question-framework.md     # Full 10-round questioning sequence + output template
-├── ambiguity-handling.md     # 8 techniques for handling vague/confused answers
-└── synthesis.md              # Rules for summarising and confirming back
+├── output-format.md          # Standardised ICP output structure and template
+├── synthesis.md              # Rules for summarising and confirming back
+└── references/
+    ├── question-framework.md # Full 10-round questioning sequence
+    └── ambiguity-handling.md # 8 techniques for handling vague/confused answers
 ```
 
 ## Installation

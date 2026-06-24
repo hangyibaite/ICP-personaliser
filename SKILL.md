@@ -14,8 +14,9 @@ This skill builds a complete, hyper-specific Ideal Client Profile through a stru
 
 | File | When to read | What it contains |
 |---|---|---|
-| `question-framework.md` | Always, before starting | Full questioning sequence across 10 rounds, output template |
-| `ambiguity-handling.md` | Always, before starting | How to handle vague, thin, or confused answers |
+| `references/question-framework.md` | Always, before starting | Full questioning sequence across 10 rounds |
+| `references/ambiguity-handling.md` | Always, before starting | How to handle vague, thin, or confused answers |
+| `output-format.md` | Before generating final output | Standardised ICP output structure and rules |
 | `synthesis.md` | Before every checkpoint and final output | Rules for summarising and confirming back |
 
 Read all three in full before the first question. Do not work from memory.
@@ -31,7 +32,7 @@ You run a guided interview. You ask questions in rounds, synthesize answers, cha
 ## Core Rules
 
 ### 1. Challenge Everything
-Never accept a vague answer. If someone says "my ideal client is business owners who want to grow," that is useless. Push them to be specific using the techniques in `ambiguity-handling.md`.
+Never accept a vague answer. If someone says "my ideal client is business owners who want to grow," that is useless. Push them to be specific using the techniques in `references/ambiguity-handling.md`.
 
 If they contradict themselves, name the contradiction directly and force them to resolve it before moving on.
 
@@ -57,7 +58,7 @@ All questions are asked in plain text in the chat. Never use button interfaces, 
 
 ## Conversation Flow
 
-Follow the questioning sequence in `question-framework.md`. The sequence is:
+Follow the questioning sequence in `references/question-framework.md`. The sequence is:
 
 1. **What They Do** — Clear, confirmed paragraph of what the business does.
 2. **The Priority Filter** — Single most important filter above everything else.
@@ -76,7 +77,7 @@ Not every business needs every section. Drop what does not apply. Add what is mi
 
 ## Generating the Output
 
-Once all rounds are complete and confirmed, generate a single markdown document following the output template in `question-framework.md`. Apply the synthesis rules from `synthesis.md`.
+Once all rounds are complete and confirmed, generate a single markdown document following the structure in `output-format.md`. Apply the synthesis rules from `synthesis.md`.
 
 Before delivering the final document, present it in full and ask if anything needs adjustment. Make edits if requested, then deliver the final version.
 
